@@ -11,8 +11,9 @@
 		D7A6D2B3243B0D5D00EC38CD /* PersonalAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2B2243B0D5D00EC38CD /* PersonalAccount.swift */; };
 		D7A6D2B5243B109900EC38CD /* CountingBeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2B4243B109900EC38CD /* CountingBeams.swift */; };
 		D7A6D2B7243B121C00EC38CD /* WordsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2B6243B121C00EC38CD /* WordsGame.swift */; };
-		D7A6D2B9243B133000EC38CD /* FoodReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2B8243B133000EC38CD /* FoodReceipt.swift */; };
+		D7A6D2B9243B133000EC38CD /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2B8243B133000EC38CD /* Receipt.swift */; };
 		D7A6D2BB243B13FA00EC38CD /* GenerateGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6D2BA243B13FA00EC38CD /* GenerateGrade.swift */; };
+		D7DCFA67245294600088A43C /* account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCFA66245294600088A43C /* account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +34,9 @@
 		D7A6D2B2243B0D5D00EC38CD /* PersonalAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAccount.swift; sourceTree = "<group>"; };
 		D7A6D2B4243B109900EC38CD /* CountingBeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBeams.swift; sourceTree = "<group>"; };
 		D7A6D2B6243B121C00EC38CD /* WordsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGame.swift; sourceTree = "<group>"; };
-		D7A6D2B8243B133000EC38CD /* FoodReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodReceipt.swift; sourceTree = "<group>"; };
+		D7A6D2B8243B133000EC38CD /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		D7A6D2BA243B13FA00EC38CD /* GenerateGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateGrade.swift; sourceTree = "<group>"; };
+		D7DCFA66245294600088A43C /* account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +69,31 @@
 		D7A6D2AA243B088500EC38CD /* LearnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D7DCFA65245294510088A43C /* data */,
+				D7DCFA63245293F20088A43C /* menu */,
 				D7A6D2AB243B088500EC38CD /* main.swift */,
+			);
+			path = LearnSwift;
+			sourceTree = "<group>";
+		};
+		D7DCFA63245293F20088A43C /* menu */ = {
+			isa = PBXGroup;
+			children = (
 				D7A6D2B2243B0D5D00EC38CD /* PersonalAccount.swift */,
 				D7A6D2B4243B109900EC38CD /* CountingBeams.swift */,
 				D7A6D2B6243B121C00EC38CD /* WordsGame.swift */,
-				D7A6D2B8243B133000EC38CD /* FoodReceipt.swift */,
+				D7A6D2B8243B133000EC38CD /* Receipt.swift */,
 				D7A6D2BA243B13FA00EC38CD /* GenerateGrade.swift */,
 			);
-			path = LearnSwift;
+			path = menu;
+			sourceTree = "<group>";
+		};
+		D7DCFA65245294510088A43C /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D7DCFA66245294600088A43C /* account.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +159,8 @@
 				D7A6D2B3243B0D5D00EC38CD /* PersonalAccount.swift in Sources */,
 				D7A6D2B7243B121C00EC38CD /* WordsGame.swift in Sources */,
 				D7A6D2BB243B13FA00EC38CD /* GenerateGrade.swift in Sources */,
-				D7A6D2B9243B133000EC38CD /* FoodReceipt.swift in Sources */,
+				D7DCFA67245294600088A43C /* account.swift in Sources */,
+				D7A6D2B9243B133000EC38CD /* Receipt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
